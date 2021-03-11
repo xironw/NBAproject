@@ -20,10 +20,8 @@
 |-datadownload.png
 ```
 
-### Instuctions:
-
 -----------
-#### Dependencies:
+#### Libraries:
 `pandas` `scikit-learn` `matplotlib`
 `numpy` `altair` `os`
 
@@ -35,9 +33,16 @@
 
 #### Before starting:
 
-environment:
+environment: PyCharm for Python
 
 ### Data preprocessing:
+
+-----------
+We processed our data by filtering down the data into only our columns of interest.
+For our analysis, the only columns that we required from this data set were the
+age, player height, points, rebounds, assists, offensive rebound percentage,
+usage percentage, true shooting percentage, assist percenatge, and season.
+
 ### Data visualization:
 
 -----------
@@ -48,9 +53,27 @@ By clicking and open the html files.
 
 for the scatter plot, you can drag in and out for different plots in the website, where there
 
+Box plots for the players' height vs performance:
+
+The box plots produced will be stored in html format in your current directory
+named age_statistics.html, which can be opened in browser.
+The box plots are interactable as well, allowing users to zoom in or out and hover
+over parts of the visualization to obtain more information on the plots.
+
 ### Creating Machine learning model
 
+-----------
+Linear Regression Model:
 
+The liner regression model was used in order to predict a player's assists based on
+their height, age, points, and rebounds. After prediction, the models intercept,
+age coeffiecient, player height coefficient, points coefficient, and rebounds
+coefficeint are printed out into the console.
+
+Descision Tree Regression Model:
+The decision tree regression model was used in order to predict a player's points based
+on their usage percentage, offensive rebound percentage, true shooting percentage, and 
+assist percentage.
 
 ### Data Depndencies
 
