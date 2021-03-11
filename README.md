@@ -25,7 +25,7 @@
 
 #### Installing:
 
-* Open your terninal, `git clone https://github.com/nsuzuki97/Spicy-Raman.git` to download
+* Open your terninal, `git clone https://github.com/xironw/NBAproject.git` to download
 
 * To see the files inside, put `cd Spicy-Raman`, `ls`
 
