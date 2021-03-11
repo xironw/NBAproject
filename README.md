@@ -59,5 +59,5 @@ Download instruction:
 
 Click on the link provided above, on the right top side of the website page, there is a download bottom. Click on it, a csv file will be downloaded and you can get access to the file. The picture below shows where the bottom is on the page.
 
-<img src="https://github.com/xironw/NBAproject/blob/main/datadownload.png?raw=true" width="555" height="160">
+<img src="https://github.com/xironw/NBAproject/blob/main/datadownload.png?raw=true" width="555" height="500">
 
