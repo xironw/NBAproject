@@ -41,7 +41,7 @@
 
 environment: PyCharm for Python, 
              
-             typing `conda activate nba_environment` to have all the packages to run the py file.
+typing `conda activate nba_environment` to have all the packages to run the py file.
 
 #### instructions to produce the reault:
 
