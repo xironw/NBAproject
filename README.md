@@ -5,19 +5,25 @@
 ```
 |-Licence
 
+|-NBAPlayerData.csv
+
 |-README.md
 
-|-data_processing.py
+|-age_statistics.html
 
 |-analysis_main.py
+
+|-data_processing.py
 
 |-visualization.py
 
 |-machine_learning.py
 
-|-NBAPlayerData.csv
+|-scatterchart.html
 
 |-datadownload.png
+
+|-visualization.py
 ```
 
 -----------
@@ -27,13 +33,17 @@
 
 #### Installing:
 
-* Open your terninal, `git clone https://github.com/xironw/NBAproject.git` to download
+* Open your terninal, type in `git clone https://github.com/xironw/NBAproject.git` to download
 
-* To see the files inside, put `cd NBAproject`, `ls`
+* To see the files inside, type `cd NBAproject`, `ls` in terminal
 
 #### Before starting:
 
 environment: PyCharm for Python
+
+#### instructions to produce the reault:
+
+* by typing `python analysis_main.py` in terminal, you can obtain the results demonstrated below.
 
 ### Data preprocessing:
 
@@ -47,14 +57,9 @@ usage percentage, true shooting percentage, assist percenatge, and season.
 
 -----------
 scatter plot for the players' height vs performance:
+The plots produced will be stored in a html format in your current directory named scatterchart.html.for the scatter plot, you can drag in and out for different plots in the website, where there is a bottom on the top that you can download the produced diagram in different versions.
 
-The plots produced will be stored in a html format in your current directory named and
-By clicking and open the html files.
-
-for the scatter plot, you can drag in and out for different plots in the website, where there
-
-Box plots for the players' height vs performance:
-
+box plot for players' age vs performance:
 The box plots produced will be stored in html format in your current directory
 named age_statistics.html, which can be opened in browser.
 The box plots are interactable as well, allowing users to zoom in or out and hover
