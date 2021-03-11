@@ -2,20 +2,39 @@
 
 -----------
 ### Structures
+```
+|-Licence
+
+|-README.md
+
+|-data_processing.py
+
+|-analysis_main.py
+
+|-NBAPlayerData.csv
+
+|-datadownload.png
+```
 
 ### Instuctions:
 
 -----------
-### Dependencies:
+#### Dependencies:
 `pandas` `scikit-learn` `matplotlib`
 `numpy` `altair` `os`
+
+#### Installing:
+
+* Open your terninal, `git clone https://github.com/nsuzuki97/Spicy-Raman.git` to download
+
+* To see the files inside, put `cd Spicy-Raman`, `ls`
 
 #### Before starting:
 
 environment:
 
-
-### Data visualization
+### Data preprocessing:
+### Data visualization:
 
 -----------
 scatter plot for the players' height vs performance:
