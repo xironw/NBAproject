@@ -13,7 +13,7 @@ def scatter_plot(data):
     # create the first scatter plot for players' height vs
     # average points per game.
     chart1 = alt.Chart(data, title="Players' height vs average points" +
-                                   "per game").mark_point().encode(
+                                   " per game").mark_point().encode(
                                     alt.X('player_height',
                                           scale=alt.Scale(domain=(150, 240))
                                           ), y='pts'
