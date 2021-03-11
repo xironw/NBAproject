@@ -11,6 +11,10 @@
 
 |-analysis_main.py
 
+|-visualization.py
+
+|-machine_learning.py
+
 |-NBAPlayerData.csv
 
 |-datadownload.png
