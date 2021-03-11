@@ -14,9 +14,6 @@
 
 environment:
 
-dataset:
-
-essential files:
 
 ### Data visualization
 
