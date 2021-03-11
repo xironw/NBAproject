@@ -29,7 +29,7 @@
 
 * Open your terninal, `git clone https://github.com/xironw/NBAproject.git` to download
 
-* To see the files inside, put `cd Spicy-Raman`, `ls`
+* To see the files inside, put `cd `NBAproject`, `ls`
 
 #### Before starting:
 
