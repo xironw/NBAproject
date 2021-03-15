@@ -35,7 +35,7 @@ def linear_regression(data):
 
     # evaluate the accuracy of our machine learning model
     # from model score(R squared) and mean square error.
-    print('model score:', model.score(x, y))
+    print('model score:', model.score(x_test, y_test))
     print('mean_squre_error', mean_squared_error(y, model.predict(x)))
 
 
