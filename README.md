@@ -82,6 +82,7 @@ The decision tree regression model was used in order to predict a player's point
 on their usage percentage, offensive rebound percentage, true shooting percentage, and 
 assist percentage.
 
+<img src="https://github.com/xironw/NBAproject/blob/main/result.png" width="600" height="400">
 ### Data Depndencies
 
 -----------
