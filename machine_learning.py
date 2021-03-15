@@ -29,7 +29,7 @@ def linear_regression(data):
     # print out the different coefficient values for different features.
     print('Intercept of the model:', model.intercept_)
     print('coefficient of age:', model.coef_[0])
-    print("coefficient of players' height:", model.coef_[1])
+    print("coefficient of player's height:", model.coef_[1])
     print("coefficient of average points per game:", model.coef_[2])
     print("coefficient of rebounds:", model.coef_[3])
 
