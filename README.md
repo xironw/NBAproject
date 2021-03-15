@@ -43,7 +43,7 @@ environment: PyCharm for Python,
              
 typing `conda activate nba_environment` to have all the packages to run the py file.
 
-#### instructions to produce the reault:
+#### Instructions to produce the reault:
 
 * by typing `python analysis_main.py` in terminal, you can obtain the results demonstrated below.
 
