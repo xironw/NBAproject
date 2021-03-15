@@ -12,36 +12,53 @@ def scatter_plot(data):
     """
     # create the first scatter plot for players' height vs
     # average points per game.
-    chart1 = alt.Chart(data, title="Players' height vs average points" +
-                                   " per game").mark_point().encode(
-                                    alt.X('player_height',
-                                          scale=alt.Scale(domain=(150, 240))
-                                          ), y='pts'
-                        ).properties(width=450, height=350)
-
-    # create the second scatter plot for players' height vs rebounds
-    chart2 = alt.Chart(data, title="Players' height vs rebounds"
+    chart1 = alt.Chart(data, title="Players' height vs Average points per" +
+                                   ' game'
                        ).mark_point().encode(
                         alt.X('player_height',
+                              axis=alt.Axis(title='Player height(cm)'
+                                            ), scale=alt.Scale(domain=(150,
+                                                                       240)
+                                                               )
+                              ), alt.Y('pts', axis=alt.Axis(title='Averag' +
+                                                                  'e ' +
+                                                                  'point' +
+                                                                  's ' +
+                                                                  'per game'
+                                                            )
+                                       )).properties(width=450, height=350)
+
+    # create the second scatter plot for players' height vs rebounds
+    chart2 = alt.Chart(data, title="Players' height vs Rebounds"
+                       ).mark_point().encode(
+                        alt.X('player_height',
+                              axis=alt.Axis(title='Player height(cm)'),
                               scale=alt.Scale(domain=(150, 240)),
-                              ), y='reb').properties(width=450,
-                                                     height=350)
+                              ), alt.Y('reb',
+                                       axis=alt.Axis(title='Rebounds')
+                                       )).properties(width=450, height=350)
 
     # create the third scatter plot for players' height vs assists.
     # height vs usage percentage.
-    chart3 = alt.Chart(data, title='player height vs assists'
+    chart3 = alt.Chart(data, title="Players' height vs Assists"
                        ).mark_point().encode(
                         alt.X('player_height',
+                              axis=alt.Axis(title='Player height(cm)'),
                               scale=alt.Scale(domain=(150, 240)),
-                              ), y='ast').properties(width=450,
-                                                     height=350)
+                              ), alt.Y('ast',
+                                       axis=alt.Axis(title='Assists')
+                                       )).properties(width=450, height=350)
 
     # create the fourth scatter plot for players' height vs usage percentage.
-    chart4 = alt.Chart(data, title="Players' height vs usage percentage"
+    chart4 = alt.Chart(data, title="Players' height vs Usage percentage"
                        ).mark_point().encode(
                         alt.X('player_height',
+                              axis=alt.Axis(title='Player height(cm)'),
                               scale=alt.Scale(domain=(150, 240)),
-                              ), y='usg_pct').properties(width=450, height=350)
+                              ), alt.Y('usg_pct',
+                                       axis=alt.Axis(title='Usage percentage')
+                                       )).properties(width=450,
+                                                     height=350)
 
     # create the interaction (zoom in and out) function for the plots
     selection = alt.selection_interval(bind='scales')
