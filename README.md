@@ -37,17 +37,17 @@
 
 * To see the files inside, type `cd NBAproject`, `ls` in terminal
 
-#### Before starting:
+#### Before Starting:
 
 environment: PyCharm for Python, 
              
 typing `conda activate nba_environment` to have all the packages to run the py file.
 
-#### Instructions to produce the reault:
+#### Instructions to Produce the Result:
 
 * by typing `python analysis_main.py` in terminal, you can obtain the results demonstrated below.
 
-### Data preprocessing:
+### Data Preprocessing:
 
 -----------
 We processed our data by filtering down the data into only our columns of interest.
@@ -55,7 +55,7 @@ For our analysis, the only columns that we required from this data set were the
 age, player height, points, rebounds, assists, offensive rebound percentage,
 usage percentage, true shooting percentage, assist percenatge, and season.
 
-### Data visualization:
+### Data Visualization:
 
 -----------
 scatter plot for the players' height vs performance:
@@ -67,7 +67,7 @@ named age_statistics.html, which can be opened in browser.
 The box plots are interactable as well, allowing users to zoom in or out and hover
 over parts of the visualization to obtain more information on the plots.
 
-### Creating Machine learning model
+### Creating Machine Learning Model
 
 -----------
 Linear Regression Model:
@@ -82,7 +82,11 @@ The decision tree regression model was used in order to predict a player's point
 on their usage percentage, offensive rebound percentage, true shooting percentage, and 
 assist percentage.
 
-<img src="https://github.com/xironw/NBAproject/blob/main/result.png" width="600" height="400">
+### Output Result
+
+-----------
+<img src="https://github.com/xironw/NBAproject/blob/main/result.png" width="600" height="200">
+
 ### Data Depndencies
 
 -----------
